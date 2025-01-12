@@ -1,12 +1,5 @@
 # QBot - PDF Query Answering Chatbot
 
----
-title: Qbot
-app_file: Qbot.py
-sdk: gradio
-sdk_version: 4.44.0
----
-
 
 **QBot** is an intelligent chatbot that answers user queries by extracting relevant information from uploaded PDF documents. The application uses **LangChain**, **Hugging Face**, and **vector databases** to deliver accurate and context-aware responses.
 
