@@ -85,10 +85,6 @@ rag_application = gr.Interface(
     inputs=[
         gr.File(label="Upload PDF File", file_count="single", file_types=[".pdf"],type="filepath"), # Drag and drop file upload
         gr.Textbox(label = "Input Query", lines=2, placeholder="Type your question here..."),
-        gr.Slider(label="Chunk Size", minimum=100, maximum=2000, value=1000, step=50),
-        gr.Slider(label="Chunk Overlap", minimum=0, maximum=500, value=50, step=10),
-        gr.Slider(label="Max Tokens", minimum=32, maximum=512, value=128, step=32),
-        gr.Slider(label="Temperature", minimum=0.0, maximum=1.0, value=0.5, step=0.1)
     ],
     outputs=gr.Textbox(label="Output"),
     title = "QBot",
