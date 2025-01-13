@@ -17,7 +17,7 @@
 ## **Technologies Used**
 
 - **LangChain**: For document processing, embeddings, and building the question-answering pipeline.
-- **Hugging Face**: Deployed the GPT model (**EleutherAI/gpt-neo-2.7B**) for natural language understanding and question answering.
+- **Hugging Face**: Deployed the GPT model (**EleutherAI/gpt-neo-2.7B, google/flan-t5-large, google/flan-t5-xl**) for natural language understanding and question answering.
 - **Chroma**: Used as a vector store for semantic search.
 - **Gradio**: For creating an easy-to-use interactive web interface.
 
