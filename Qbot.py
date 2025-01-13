@@ -135,23 +135,40 @@ rag_application = gr.Interface(
     outputs=gr.Textbox(label="Output"),
     title = "📚 QBot - Your PDF Assistant",
     description="""
-    ### Welcome to QBot! 
+    ### Welcome to QBot - Your Intelligent PDF Analysis Companion! 
     
-    Upload your PDF and ask any question about its contents. QBot will analyze the document and provide relevant answers.
+    Transform any PDF document into an interactive knowledge base. Ask questions naturally and get precise answers powered by advanced language models.
     
-    #### How to use:
-    1. Upload your PDF file using the file uploader
-    2. Type your question in the query box
-    3. Adjust Temperature (controls creativity) and Max Tokens (controls response length) if needed
-    4. Get your answer instantly!
+    #### Features:
+    🔍 Intelligent PDF Processing
+    💡 Multiple Language Models
+    🎯 Customizable Response Settings
+    🔄 Various Embedding Options
+    
+    #### How to Use:
+    1. **Upload PDF**: Drop your document in the file uploader
+    2. **Ask Questions**: Type any question about your document
+    3. **Customize Settings**:
+       - Choose your preferred Language Model
+       - Adjust Temperature (0-1) for response creativity
+       - Set Max Tokens for response length
+       - Select Embedding Model for document processing
+    4. **Get Answers**: Receive AI-powered responses from your document
     """,
     article="""
-    #### Tips for best results:
-    - Keep questions clear and specific
-    - Adjust temperature higher for more creative answers
-    - Increase max tokens for longer responses
+    #### Advanced Tips:
+    📊 **Model Selection**:
+    - GPT-Neo 2.7B: Best for general-purpose queries
+    - FLAN-T5 Large: Efficient for straightforward questions
+    - FLAN-T5 XL: Ideal for complex analysis
     
-    Made with ❤️ using LangChain and Hugging Face
+    🎛️ **Parameter Guide**:
+    - Temperature: Lower (0.1-0.4) for factual, Higher (0.6-0.9) for creative
+    - Max Tokens: 128 for brief answers, 256+ for detailed explanations
+    - Embedding Models: Choose based on document complexity and language
+    
+    💫 Powered by LangChain and Hugging Face
+    Made with 🤖 for seamless document interaction
     """,
     theme=gr.themes.Soft(
         primary_hue="green",
