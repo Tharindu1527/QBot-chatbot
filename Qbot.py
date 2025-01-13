@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 #Initialize LLM
 
 def get_llm():
-    model_id = "EleutherAI/gpt-neo-1.3B"
+    model_id = "EleutherAI/gpt-neo-2.7B"
 
     huggingface_api_key = "" 
 
@@ -52,7 +52,7 @@ def vector_database(chunks):
 
 #Define Embedding Model
 def huggingface_embeddings():
-    model_name = "sentence-transformers/all-mpnet-base-v2"
+    model_name = "sentence-transformers/all-distilroberta-v1"
     huggingface_embedding = HuggingFaceEmbeddings(model_name=model_name)
     
     return huggingface_embedding
