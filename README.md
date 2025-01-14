@@ -23,6 +23,15 @@
 
 ---
 
+## **QBot Interface**
+
+- **LangChain**: <a href = "https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/1.png"></a>
+- **Hugging Face**: Deployed the GPT model (**EleutherAI/gpt-neo-2.7B, google/flan-t5-large, google/flan-t5-xl**) for natural language understanding and question answering.
+- **Chroma**: Used as a vector store for semantic search.
+- **Gradio**: For creating an easy-to-use interactive web interface.
+
+---
+
 ## **How to Run the Project Locally**
 
 ### Installation
