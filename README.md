@@ -25,10 +25,10 @@
 
 ## **QBot Interface**
 
-<p align="center">
-  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/1.png" alt="Interface 1" width="500">
-  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/2.png" alt="Interface 2" width="500">
-  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/3.png" alt="Interface 3" width="500">
+<p align="left">
+  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/1.png" alt="Interface 1" width="400">
+  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/2.png" alt="Interface 2" width="400">
+  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/3.png" alt="Interface 3" width="400">
 </p>
 
 ---
