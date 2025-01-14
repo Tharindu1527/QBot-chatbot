@@ -23,8 +23,6 @@
 
 ---
 
----
-
 ## **QBot Interface**
 
 <p align="center">
