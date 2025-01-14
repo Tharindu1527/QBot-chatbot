@@ -23,12 +23,15 @@
 
 ---
 
+---
+
 ## **QBot Interface**
 
-- ![QBot Interface 1](https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/1.png)
-- **Hugging Face**: Deployed the GPT model (**EleutherAI/gpt-neo-2.7B, google/flan-t5-large, google/flan-t5-xl**) for natural language understanding and question answering.
-- **Chroma**: Used as a vector store for semantic search.
-- **Gradio**: For creating an easy-to-use interactive web interface.
+<p align="center">
+  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/1.png" alt="Interface 1" width="500">
+  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/2.png" alt="Interface 2" width="500">
+  <img src="https://github.com/Tharindu1527/QBot-chatbot/blob/main/QBot%20Interface%20Images/3.png" alt="Interface 3" width="500">
+</p>
 
 ---
 
