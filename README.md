@@ -32,7 +32,9 @@
 </p>
 
 ---
-
+## **Check out the Project in Huggingface space**
+Public Url - https://huggingface.co/spaces/Tharindu1527/Gradio_space
+---
 ## **How to Run the Project Locally**
 
 ### Installation
